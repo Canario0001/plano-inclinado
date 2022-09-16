@@ -12,6 +12,6 @@ Você pode rodar diretamente o `main.py` ou usar a função `continha()` (não r
 
 ## TODO
 
-[ ] Arrumar bugs
-[ ] UI mais bonita
-[ ] Traduzir para o inglês
+- [ ] Arrumar bugs
+- [ ] UI mais bonita
+- [ ] Traduzir para o inglês
