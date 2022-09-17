@@ -29,7 +29,7 @@ def continha(p, px, py, m, g, a, fa, â, coa):
                                 except (NameError, TypeError): # não tem py ou cosseno
                                         try:
                                                 p = py/coss
-                                        except NameError: p = err
+                                        except (NameError, TypeError): p = err
 
                 if not px:
                         try: 
