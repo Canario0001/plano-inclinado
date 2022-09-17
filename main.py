@@ -28,7 +28,7 @@ def continha(p, px, py, m, g, a, fa, â, coa):
                                         p = px/sen
                                 except (NameError, TypeError): # não tem py ou cosseno
                                         try:
-                                                p = py/cos
+                                                p = py/coss
                                         except NameError: p = err
 
                 if not px:
@@ -66,10 +66,9 @@ def continha(p, px, py, m, g, a, fa, â, coa):
                         except (NameError, TypeError): # não tem px ou seno
                                 try:
                                         p = px/sen
-                                        p = py/cos
                                 except (NameError, TypeError): # não tem py ou cosseno
                                         try:
-                                                p = py/cos
+                                                p = py/coss
                                         except (NameError, TypeError): p = err
 
                 if not px:
