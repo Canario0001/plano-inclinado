@@ -12,6 +12,8 @@ Você pode rodar diretamente o `main.py` ou usar a função `continha()` (não r
 
 ## TODO
 
+- [x] Seno e cosseno adicionado manualmente
+- [x] Escrever os resultados pro usuário
 - [ ] Arrumar bugs
 - [ ] UI mais bonita
 - [ ] Traduzir para o inglês
